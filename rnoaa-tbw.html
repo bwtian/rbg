@@ -312,6 +312,35 @@ $(document).ready(function () {
 
 <div id="install-pakages" class="section level1">
 <h1>Install Pakages</h1>
+<ul>
+<li><a href="https://www.ncdc.noaa.gov/cdo-web/token" class="uri">https://www.ncdc.noaa.gov/cdo-web/token</a></li>
+<li>Email: <a href="mailto:bwtian@qq.com">bwtian@qq.com</a></li>
+<li>Token: oHswkGjodeAteNDVzdoTqgagICPvWZgh</li>
+<li>Put it into .Rprofile options(noaakey = “KEY_EMAILED_TO_YOU”)</li>
+</ul>
+<pre class="r"><code>rnoaa::ncdc_locs(locationcategoryid = &quot;CITY&quot;, sortfield = &quot;name&quot;, sortorder = &quot;desc&quot;,
+    limit = 5)</code></pre>
+<pre><code>## $meta
+## $meta$totalCount
+## [1] 1987
+## 
+## $meta$pageCount
+## [1] 5
+## 
+## $meta$offset
+## [1] 1
+## 
+## 
+## $data
+##      mindate    maxdate           name datacoverage            id
+## 1 1892-08-01 2018-01-31     Zwolle, NL       1.0000 CITY:NL000012
+## 2 1901-01-01 2018-05-28     Zurich, SZ       1.0000 CITY:SZ000007
+## 3 1957-07-01 2018-05-28  Zonguldak, TU       1.0000 CITY:TU000057
+## 4 1906-01-01 2018-05-28     Zinder, NG       0.9025 CITY:NG000004
+## 5 1973-01-01 2018-05-28 Ziguinchor, SG       1.0000 CITY:SG000004
+## 
+## attr(,&quot;class&quot;)
+## [1] &quot;ncdc_locs&quot;</code></pre>
 </div>
 
 

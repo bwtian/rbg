@@ -15,12 +15,15 @@ knitr::opts_chunk$set(echo = TRUE)
 install.packages("rnoaa")
 library(rnoaa)
 ```
-https://www.ncdc.noaa.gov/cdo-web/token
-Email:	bwtian@qq.com
-Token:	oHswkGjodeAteNDVzdoTqgagICPvWZgh
+* https://www.ncdc.noaa.gov/cdo-web/token
+* Email:	bwtian@qq.com
+* Token:    oHswkGjodeAteNDVzdoTqgagICPvWZgh
+* Put it into .Rprofile
+options(noaakey = "KEY_EMAILED_TO_YOU")
 
 ```{r token}
-
+rnoaa::ncdc_locs(locationcategoryid = "CITY", sortfield = "name", sortorder = "desc",
+    limit = 5)
 ```
 
 
