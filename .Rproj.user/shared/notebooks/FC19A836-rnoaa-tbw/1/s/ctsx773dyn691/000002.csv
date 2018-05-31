@@ -1,0 +1,18 @@
+"0","install.packages(""rnoaa"")
+"
+"2","trying URL 'https://mirrors.ustc.edu.cn/CRAN/bin/windows/contrib/3.5/rnoaa_0.7.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2567880 bytes (2.4 MB)
+"
+"2","downloaded 2.4 MB
+
+"
+"1","package ‘rnoaa’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1","The downloaded binary packages are in
+	C:\Users\Administrator\AppData\Local\Temp\Rtmp6xfWVt\downloaded_packages"
+"1","
+"

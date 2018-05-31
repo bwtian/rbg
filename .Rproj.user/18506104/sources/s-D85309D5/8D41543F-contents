@@ -1,0 +1,26 @@
+---
+title: "rnoaa"
+author: "Bingwei tian"
+date: "2018年5月31日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Install Pakages
+
+```{r insPkg, eval=FALSE, include=FALSE}
+install.packages("rnoaa")
+library(rnoaa)
+```
+https://www.ncdc.noaa.gov/cdo-web/token
+Email:	bwtian@qq.com
+Token:	oHswkGjodeAteNDVzdoTqgagICPvWZgh
+
+```{r token}
+
+```
+
+
